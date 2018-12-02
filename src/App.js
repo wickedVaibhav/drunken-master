@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currnetPage: "onboarding"
+      currnetPage: "game"
     }
     this.changeCurrentPage = this.changeCurrentPage.bind(this);
   }
