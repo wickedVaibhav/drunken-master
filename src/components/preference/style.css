@@ -1,0 +1,15 @@
+.preference-wrapper{
+    text-align: center;
+}
+
+div[class^='preference'], div[class*=' preference']{
+    margin: 5px;
+}
+
+.chips{
+    margin: 5px;
+}
+
+.male{
+    background: blue;
+}
