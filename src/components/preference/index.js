@@ -4,7 +4,7 @@ export default class Preference extends Component {
   render() {
     return (
       <div>
-        Preference
+        Hello Preference
       </div>
     )
   }
