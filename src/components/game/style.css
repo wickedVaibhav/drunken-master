@@ -1,0 +1,15 @@
+.card-wrapper {
+  height: 70vh;
+}
+.next-button-wrapper {
+  display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.nextButton {
+  background-color: #fb7272;
+}
+
+.cardContent-wrapper {
+  text-align: center;
+}

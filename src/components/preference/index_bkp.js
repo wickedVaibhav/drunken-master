@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Chip from "@material-ui/core/Chip";
 import Button from "@material-ui/core/Button";
-import Paper from "@material-ui/core/Paper";
 import "./style.css";
 
 export default class Preference extends Component {
@@ -230,26 +229,28 @@ export default class Preference extends Component {
         </div>
 
         <div className="preference-6 confirm-preferences hide animated fadeInBottom">
-          <Paper className="pad-25">
-            <p>You Are : {this.state.prefer_1.toLocaleUpperCase()}</p>
-            <p>
-              You Are At : {this.state.prefer_2.map(c => c.toLocaleUpperCase())}{" "}
-              <br />
-            </p>
-            <p>
-              You Are With :{" "}
-              {this.state.prefer_3.map(c => c.toLocaleUpperCase())}
-            </p>
-            <p>You Want to : {this.state.prefer_4.toLocaleUpperCase()}</p>
-            <p>Time of Day : {this.state.prefer_5.toLocaleUpperCase()}</p>
-            <Button
-              variant="contained"
-              color="secondary"
-              onClick={this.resetPreferences}
-            >
-              Reset
-            </Button>
-          </Paper>
+          <p>
+            You Are : {this.state.prefer_1} <br />
+          </p>
+          <p>
+            You Are At : {this.state.prefer_2.map(c => c)} <br />
+          </p>
+          <p>
+            You Are With : {this.state.prefer_3.map(c => c)} <br />
+          </p>
+          <p>
+            You Want to : {this.state.prefer_4} <br />
+          </p>
+          <p>
+            Time of Day : {this.state.prefer_5} <br />
+          </p>
+          <Button
+            variant="contained"
+            color="secondary"
+            onClick={this.resetPreferences}
+          >
+            Reset
+          </Button>
         </div>
       </div>
     );

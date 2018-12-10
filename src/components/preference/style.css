@@ -1,15 +1,29 @@
-.preference-wrapper{
-    text-align: center;
+.preference-wrapper {
+  text-align: center;
 }
 
-div[class^='preference'], div[class*=' preference']{
-    margin: 5px;
+div[class^="preference"],
+div[class*=" preference"] {
+  margin: 5px;
 }
 
-.chips{
-    margin: 5px;
+.chips {
+  margin: 5px;
 }
 
-.male{
-    background: blue;
+.male {
+  background: blue;
+}
+.active {
+  background-color: beige !important;
+}
+
+.preference-wrapper {
+  margin-top: 50%;
+  transform: translateY(50%);
+  height: 300px;
+}
+
+.pad-25 {
+  padding: 25px;
 }
